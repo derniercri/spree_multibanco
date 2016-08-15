@@ -1,5 +1,5 @@
 Deface::Override.new(
-  :virtual_path => 'spree/admin/shared/sub_menu/_configuration',
+  :virtual_path => 'spree/admin/shared/_configuration_menu',
   :name => 'add_multibanco_providers_to_admin_configuration_sidebar',
   :insert_bottom => "[data-hook='admin_configurations_sidebar_menu']",
   :text => %q{
